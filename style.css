@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+}
+body {
+font-family: "Montserrat" , sans-serif;
+font-weight: 500;
+letter-spacing: 0.3px;
+
+
+
+
+} 
+nav {
+    position: fixed;
+    z-index: 1;
+    width:100%;
+background: transparent;
+  background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px ;
+    height: 70px;
+   
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) ;
+}
+
+nav a {
+    color: inherit;
+font-size: 30px;
+text-decoration: none;
+transition: color 0.3s;
+cursor: pointer;
+}
+ion-icon {
+  color:#4b2f2f;
+}
+
+nav a:hover{
+    opacity: 0.8;
+}
+
+nav h3 {
+    font-family: 'Playfair Display' , serif;
+    letter-spacing: 7px;
+    font-size: 20px;
+    
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.hero{
+    padding: 100px 20px;
+background-color: #f6f6f6;
+}
+
+.hero .hero_img {
+justify-content: center;
+display: flex;
+align-items: center;
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.hero h2 {
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: 'Playfair Display' , serif;
+  letter-spacing: 3px;
+  margin-top: 10px;
+}
+.hero p {
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: justify;
+  margin-top: 15px;
+}
+.section_1 {
+display: block;
+}
+.section_1 .section_1__text .container{
+  padding: 50px 20px;
+}
+
+.section_1 h2 {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.section_1 p {
+  line-height: 27px;
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+.section_1 .section_1__vasco {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+font-size: 16px;
+font-family: monospace;
+letter-spacing: 4px;
+font-weight: 1000;
+text-transform: uppercase;
+
+}
+.section_1 .section_1__img {
+ 
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+}
+
+.footer_1 {
+  margin-top: 50px;
+  padding: 50px 10px;
+  background-color: #f7f7f7;
+}
+
+.footer_1 div {
+
+  color: #747474
+}
+
+.footer_1 div p {
+  font-size: 15px;
+  font-family: sans-serif;
+
+}
+.footer_2 {
+  padding: 30px 20px ;
+  background-color: #f2f2f2;
+  font-size: 14px;
+  color: #8b8b8b;
+  letter-spacing : 0.5px ;
+}
